@@ -12,7 +12,6 @@ if ($loginFormContainer.length != 0) {
         let email = $('#emailInput').val();
         let password = $('#passwordInput').val();
         let webFormData = new FormData();
-        console.log("damn it over here");
         webFormData.append('email', email);
         webFormData.append('password', password);
         axios({
